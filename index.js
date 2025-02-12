@@ -3,7 +3,10 @@ function Hooks(){
         console.log('Button clicked');
     }
     return (
+        <>
+        <h2>React Hooks</h2>
         <button onClick={handleClick}>Click me</button>
+        </>
     )
 }
 
